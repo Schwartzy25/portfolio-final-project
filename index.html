@@ -3,26 +3,34 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Rebecca Schwartz | UX Designer</title>
+
+	<link rel="stylesheet" href="./css/styles.css">
+	<link rel="stylesheet" href="./css/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Galada|Montserrat:300,400,400i,700" rel="stylesheet">
 </head>
 <body>
-	<h1>Rebecca Schwartz | UX/UI Designer</h1>
-	<nav>
-		<ul>
-			<li>
-				<a href="#">About</a>
-			</li>
-			<li>
-				<a href="#">Work</a>
-			</li>
-			<li>
-				<a href="#">Contact</a>
-			</li>
-		</ul>
-	</nav>
+	<header>
+		<h1>Rebecca Schwartz | UX/UI Designer</h1>
+		<img src="./images/logo-bright.png" alt="Rebecca Schwartz UX/UI Designer logo">
+		<nav>
+			<ul>
+				<li>
+					<a href="#">About</a>
+				</li>
+				<li>
+					<a href="#">Work</a>
+				</li>
+				<li>
+					<a href="#">Contact</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
 
 	<section class="about">
-		<div class="clearfix"></div>
-			<!-- <img src="./images/rebecca-schwartz.jpg" alt="Rebecca Schwartz photo"> -->
+		<div class="container clearfix"></div>
+			<h2>About</h2>
+			<img src="./images/rebecca-schwartz-circle-500.png" alt="Rebecca Schwartz photo">
 			<p>Through my past work and travels I have developed a desire to learn and explore more about human emotions and how they can be accessed to create beautiful and functional products, and experiences, through a user-centered design process.</p>
 
 			<p>I'm an easy-going and approachable person and love working closely with others. One of the most exciting parts of the design process for me is the sharing of ideas. I want to listen and learn from one another and build on concepts and designs together.</p>
@@ -31,24 +39,27 @@
 	</section>
 	
 	<section class="work">
-		<div class="portfolio-images clearfix">
-			<img src="./images/olio-blue.png" alt="OLIO Case Study">
-			<img src="./images/vanda-yellow.png" alt="V&A Case Study">
-			<img src="./images/ggs-orange.png" alt="Growing Garden Supply Case Study">
-			<img src="./images/nappy-green.png" alt="NappY Case Study">
+		<div class="container clearfix">
+			<div class="portfolio-images">
+				<h2>Work</h2>
+				<img src="./images/olio-blue.png" alt="OLIO Case Study">
+				<img src="./images/vanda-yellow.png" alt="V&A Case Study">
+				<img src="./images/ggs-orange.png" alt="Growing Garden Supply Case Study">
+				<img src="./images/nappy-green.png" alt="NappY Case Study">
+			</div>
 		</div>
 
-		<div class="project">
+		<div class="project container clearfix">
 			<ul>
 				<li>
-					<h2>Olio</h2>
-					<h3>The Brief</h3>
+					<h3>Olio</h3>
+					<h4>The Brief</h4>
 					<p>OLIO is a free mobile app with the mission to reduce waste by creating a community where people share surplus food and other unwanted items.</p>
 
 					<p>We were tasked with creating a positive onboarding experience that encourages users to add and request items, and to increase the sense of community by showing other users near you and their activity.</p>
 
-					<h3>The Research</h3>
-					<h4>Competitive</h4>
+					<h4>The Research</h4>
+					<h5>Competitive</h5>
 					<p>Although OLIO has no direct competition in regards to its food sharing platform, now that it has moved into the general sharing industry that has changed.</p>
 
 					<p>In completing a competitive analysis we gained some valuable insight into best practices. The competitors we analysed all had one or more of the following:</p>
@@ -59,7 +70,7 @@
 						<li>Search functionality</li>
 						<li>Ability to access as a guest</li>
 					</ul>
-					<h4>User Insights</h4>
+					<h5>User Insights</h5>
 					
 					<p>We compiled a screener survey in order to find non-OLIO users to interview, as well as getting in touch with a number of current/past OLIO users.</p>
 
@@ -74,13 +85,13 @@
 
 					<p>After speaking to current OLIO users we gained some valuable insight into the current pain points of the app as well as the reasons why they kept returning:</p>
 
-					<h4>Pros</h4>
+					<h5>Pros</h5>
 					<ul>
 						<li>Loved feeling part of the community</li>
 						<li>Meeting new people</li>
 						<li>Reducing waste</li>
 					</ul>
-					<h4>Cons</h4>
+					<h5>Cons</h5>
 					<ul>
 						<li>Challenging to add bulk items</li>
 						<li>Confusion with the donation function</li>
@@ -89,7 +100,7 @@
 
 					<p>From our research we discovered that the biggest pain point for users was actually adding a listing. As this is one of the most important parts of app we believed the brief had to change.</p>
 
-					<h3>Ideation</h3>
+					<h4>Ideation</h4>
 					<p>With our research completed we presented our findings back to members of the OLIO team. After agreeing to the new brief, which was to update the ‘Add Listing’ page and streamline the onboarding process, we held a design studio focused on this main listing screen.</p>
 
 					<p>Some of the most popular features were:</p>
@@ -103,7 +114,7 @@
 					
 					<p>It was these features we focused on when creating our first sketches.</p>
 
-					<h3>Iteration</h3>
+					<h4>Iteration</h4>
 
 
 					<p>As OLIO has recently decided to add new categories to their app we needed to design a way for users to select these before going to the ‘Add Listing’ page.</p>
@@ -141,7 +152,7 @@
 
 					<p>For our third project brief we were split into teams of 3 or 4 and given one of 6 briefs. Our team of 4 was given a brief for the V&ampA and were tasked with creating either a responsive website (mobile first approach) OR native application (smartphone or tablet).</p>
 
-					<h3>Our Brief</h3>
+					<h4>Our Brief</h4>
 					<p>The V&ampA wanted to make visiting the museum much easier and engaging, and allow visitors to find exhibits that would most interest them, and be able to keep track of the most interesting information, displays, or exhibits that they discover on their trip to the museum. They would like to feature new exhibits and tips to visitors on what they should explore based on the visitors profile.</p>
 
 					<h4>We were given a few things to consider:</h4>
@@ -158,7 +169,7 @@
 							<li>Feature that allows the user to learn more information about the topic of a certain exhibit or display that they come across</li>
 							<li>Tie-in with their website to save visits or plan future visits</li>
 					</ul>
-					<h3>Our Research</h3>
+					<h4>Our Research</h4>
 					<p>We started our process off with a competitive analysis looking at both direct and indirect competitors. The direct competitors we looked at were:</p>
 					<ul>
 						<li>Somerset House</li>
@@ -214,10 +225,10 @@
 					</ul>
 					<p>Bringing all these findings together we moved onto the next phase of our design process… The ideation phase.</p>
 
-					<h3>Idea Generation</h3>
+					<h4>Idea Generation</h4>
 					<p>As we knew from both the brief and our user findings the most important issue to tackle was navigation around the museum. So this is what we focused on in our design studio session.</p>
 
-					<h3>Design Studio</h3>
+					<h4>Design Studio</h4>
 					<p>We all started by sketching some ideas on how we thought the final product could look and what we personally felt was the best way to tackle it.</p>
 
 					<p>Here are some of the ideas that came out of it.</p>
@@ -228,10 +239,10 @@
 					<img src="#" alt="Wireflows 2">
 					<img src="#" alt="Wireflows 3">
 
-					<h3>User Testing</h3>
+					<h4>User Testing</h4>
 					<p>After creating a paper prototype we took it out to the Design Museum and the Tate Modern to do some guerilla testing with potential users.</p>
 
-					<h3>Feedback</h3>
+					<h4>Feedback</h4>
 					<p>Here are some of the features we iterated on:</p>
 					<ul>
 						<li>
@@ -285,7 +296,7 @@
 							</p>
 						</li>	
 					</ul>
-					<h3>Next Steps</h3>
+					<h4>Next Steps</h4>
 
 					<p>Now that we have created a high-fidelity prototype we would like to be able to continue testing with users and with their feedback continuing to iterate on our designs.</p>
 
@@ -300,7 +311,7 @@
 				</li>
 				<li>
 					<h2>E-commerce in 8 days</h2>
-					<h3>A brief section on the brief</h3>
+					<h4>A brief section on the brief</h4>
 					<p>For our second project we were tasked with designing an e-commerce website for Growing Garden Supply (GGS), a fictional garden store based on Columbia Road. The scope of the project was:</p>
 
 					<blockquote>“Through a new ecommerce website, we want to showcase our products, while maintaining our brand image.
@@ -452,20 +463,20 @@
 					<p>In order to find a problem that we could solve we first had to get to know our partner better. This was done by conducting user interviews. During this process I got to understand my user, Sophie, better. I asked her questions about her daily routine, her likes and dislikes, what she enjoys doing and her struggles. Through these interviews I found that she was struggling because she just didn’t have enough hours in the day to do everything she needs to get done. She recently had her first child and has embarked on an intensive 10 week course, as well as all her other responsibilities.</p>
 
 
-					<h3>Concept Mapping</h3>
+					<h4>Concept Mapping</h4>
 					<p>Creating concept maps helped me to digest the information better and from these maps I was able to see that Sophie was having issues when sharing information and communicating daily with the nanny. This is when I came up with my first solution.</p>
 
 					<p>I wanted to create an app that could help parents and nannies to track feeding and sleeping, give them the ability to share information, set tasks and message each other. I started sketching ideas for screens in order to get a better idea of how it might look.</p>
 
 
-					<h3>Storyboarding and Flows</h3>
+					<h4>Storyboarding and Flows</h4>
 					<p>After sketching the various screens that would be in my app I came up with a first iteration of my storyboard and user flows.</p>
 
 
 
 					<p>As I was creating the user flow I struggled to see a single happy path. This was because there were so many different routes through the app. At this point I could see that I needed to find a focus but was struggling to do so.</p>
 
-					<h3>Critique and Feedback</h3>
+					<h4>Critique and Feedback</h4>
 					<p>During our first critique I received some excellent, and much appreciated, feedback that helped me to locate which function to focus on. After I presented them with my ‘Monster app’ they advised me to look more specifically at the task section of the app I had designed and build on that.</p>
 
 					<p>This feedback brought me onto the second iteration of my storyboard and user flow.</p>
@@ -474,7 +485,7 @@
 
 					<p>From this user flow you can see that there is one single happy path to get through the task adding process. Bingo!</p>
 
-					<h3>Prototyping</h3>
+					<h4>Prototyping</h4>
 					<p>Once I had confirmed this new focus with my user I started drawing screens that would be used for the paper prototype. My first iterations were very simple with a bar at the top that contained the burger menu, search function or adding a new user or task button.</p>
 
 
@@ -487,7 +498,7 @@
 
 					<p>Sophie had told me that she didn’t want an app that would end up adding time to her already busy schedule, so I wanted to simplify the process and the look of the screens as much as possible. These changes helped me to do so with my second iteration.</p>
 
-					<h3>Time to Marvel</h3>
+					<h4>Time to Marvel</h4>
 					<p>Using Marvel I digitised the paper prototype. I was then able to test the second iteration of the app with different users to get some feedback on the layout and functions.</p>
 
 
@@ -498,7 +509,7 @@
 
 					<p>I have reflected this change in my Marvel prototype so you can now select a time directly instead of the add button in the top left corner.</p>
 
-					<h3>Thinking of the future…</h3>
+					<h4>Thinking of the future…</h4>
 					<p>For future iterations I would like to:</p>
 					<ul>
 						<li>Integrate all the features of my original design.</li>
@@ -511,6 +522,7 @@
 	</section>
 
 	<section class="contact">
+		<h2>Contact</h2>
 		<p>Say hey</p>
 		<a href="#">Medium</a>
 		<a href="#">Twitter</a>
